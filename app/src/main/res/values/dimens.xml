@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Genel Boyutlar -->
+    <dimen name="margins_topRightImageButton">44dp</dimen>
+
+    <!-- Main Activity -->
+    <dimen name="marginStart_tvLeftTitle_main">43dp</dimen>
+    <dimen name="marginEnd_tvLeftTitle_main">157dp</dimen>
+    <dimen name="marginTop_tvLeftTitle_main">97dp</dimen>
+
+    <dimen name="textSize_title_main">45sp</dimen>
+    <dimen name="textSize_tvRightTitle_main">50sp</dimen>
+
+    <!-- Genel Linear Layout Boyutları  -->
+    <dimen name="marginTop_llButtons">35dp</dimen>
+    <dimen name="marginBottom_llButtons">55dp</dimen>
+    <dimen name="marginTop_betweenLlButtons">-31dp</dimen>
+
+    <!-- Linear Layout Buttons -->
+    <dimen name="paddingBottom_llButtons">5dp</dimen>
+    <dimen name="textSize_llButtons">17sp</dimen>
+
+    <!-- Dialog_Ex_Options Boyutları -->
+    <dimen name="marginTop_betweenGroups_exOpDialog">17dp</dimen>
+    <dimen name="marginTop_toParent_exOpDialog">37dp</dimen>
+    <dimen name="marginBottom_toParent_exOpDialog">17dp</dimen>
+    <dimen name="textSize_title_exOpDialog">21sp</dimen>
+    <dimen name="textSize_checkBox_exOpDialog">17sp</dimen>
+
+    <!-- GameModeActivity Boyutları -->
+    <dimen name="marginTop_titleButton">92dp</dimen>
+
+    <!-- Buton İçi Boyutlar -->
+    <dimen name="textSize_buttons">17sp</dimen>
+    <dimen name="paddingBottom_buttons">5dp</dimen>
+
+    <!-- Diyalog için Boyutlar -->
+    <dimen name="marginEnd_dialogCancelImageButton">37dp</dimen>
+    <dimen name="marginTop_dialogCancelImageButton">29dp</dimen>
+    <dimen name="marginTop_dialogTitleButton">-21dp</dimen>
+    <dimen name="marginTop_topDialogButton">-21dp</dimen>
+    <dimen name="marginTop_betweenDialogButtons">-37dp</dimen>
+
+    <!-- Screen_* Boyutları -->
+    <dimen name="txtSize_middle_screen">45sp</dimen>
+    <dimen name="txtSize_general_screen">17sp</dimen>
+    <dimen name="marginTopBottom_topBottomText">27dp</dimen>
+
+</resources>

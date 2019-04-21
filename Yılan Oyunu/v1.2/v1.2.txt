@@ -1,0 +1,9 @@
+
+Eklenen Özellikler;
+-> Oyun Modu ve Ayarlar diyaloglarının sağ üstüne çıkış butonu (x) eklendi.
+-> Sağ üst ayarlar ikonu diyaloğunun görseli ve işleyişi değiştirildi.
+-> Pause / Game Over ekranları. Pause açıklamaları
+
+Düzeltilen hatalar;
+-> Ses yok ayarı seçildiğinde uygulanmanın kapanma sorunu düzeltildi.
+-> Çerçeve eklendikten sonra kaldırıldığında oluşan görüntü bozukluğu düzeltildi.

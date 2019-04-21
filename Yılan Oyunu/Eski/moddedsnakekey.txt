@@ -1,0 +1,31 @@
+android {
+    signingConfigs {
+        key{
+            keyAlias 'ModdedSnakeKey'
+            keyPassword 'qwas_1245'
+            storeFile file('C:\\Users\\YEmre\\Desktop\\moddedsnake.jks')
+            storePassword 'qwas_1245'
+        }
+    }
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId 'com.yemreak.moddedsnake'
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug{
+            signingConfig signingConfigs.key
+        }
+
+    }
+    productFlavors {
+    }
+}

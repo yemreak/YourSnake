@@ -1,0 +1,9 @@
+Güncellemeler;
+-> Oyun Bitti ekranı eklendi.
+-> Ex ayarlarda (sağ üst ayarlar ikonu) durduruldu ve oyun bitti ekranlarını kapatma özelliği eklendi (hızlı oyun için)
+-> Artık yılan otomatik başlamak yerine dokununca başlıyor.
+
+Giderilen hatalar;
+-> Durduruldu ekranındaki metin hataları düzeltildi.
+-> Artık 2 kere durduruldu ekranı gelmiyor.
+-> Çeşitli buglar kaldırıldı.

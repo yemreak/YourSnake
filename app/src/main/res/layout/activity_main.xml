@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cl_main"
+    android:background="@drawable/bg_main"
+    tools:context=".MainActivity">
+
+    <!-- Arka planı kaldırıyoruz  android:background ="@null" -->
+    <ImageButton
+        android:id="@+id/ibExOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/margins_topRightImageButton"
+        android:layout_marginTop="@dimen/margins_topRightImageButton"
+        android:background="@null"
+        android:src="@drawable/ic_ex_options"
+        android:contentDescription="@string/content_description_clickable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLeftTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/marginEnd_tvLeftTitle_main"
+        android:layout_marginStart="@dimen/marginStart_tvLeftTitle_main"
+        android:layout_marginTop="@dimen/marginTop_tvLeftTitle_main"
+        android:fontFamily="@font/almendra_bold"
+        android:text="@string/txt_title_left"
+        android:textColor="@color/txt_title_main"
+        android:textSize="@dimen/textSize_title_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRightTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="136dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/almendra_bold"
+        android:text="@string/txt_title_right"
+        android:textColor="@color/txt_title_main"
+        android:textSize="@dimen/textSize_title_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvLeftTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvLeftTitle" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/marginBottom_llButtons"
+        android:layout_marginTop="@dimen/marginTop_llButtons"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRightTittle">
+
+        <Button
+            android:id="@+id/btnNewGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_white"
+            android:fontFamily="@font/almendra_bold"
+            android:paddingBottom="@dimen/paddingBottom_llButtons"
+            android:text="@string/txtButton_newGame"
+            android:textAlignment="center"
+            android:textColor="@color/txt_white_button"
+            android:textSize="@dimen/textSize_llButtons"
+            app:srcCompat="@drawable/bg_button_white" />
+
+        <Button
+            android:id="@+id/btnGameMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_betweenLlButtons"
+            android:background="@drawable/bg_button_white"
+            android:fontFamily="@font/almendra_bold"
+            android:paddingBottom="@dimen/paddingBottom_llButtons"
+            android:text="@string/txtButton_gameModes"
+            android:textAlignment="center"
+            android:textColor="@color/txt_white_button"
+            android:textSize="@dimen/textSize_llButtons" />
+
+        <Button
+            android:id="@+id/btnOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_betweenLlButtons"
+            android:background="@drawable/bg_button_white"
+            android:fontFamily="@font/almendra_bold"
+            android:paddingBottom="@dimen/paddingBottom_llButtons"
+            android:text="@string/txtButton_options"
+            android:textAlignment="center"
+            android:textColor="@color/txt_white_button"
+            android:textSize="@dimen/textSize_llButtons" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

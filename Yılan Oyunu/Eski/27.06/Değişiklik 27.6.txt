@@ -1,0 +1,15 @@
+Modlarla özelleştirilmiş sıradan bir yılan oyunudur.
+
+Neler var?
+-> Oyun Modları
+-> Tema, ses ve control değiştirme imkanı
+
+Oyun Modları da neler?
+-> Çerçeve
+-> Daha fazla yem tipi
+-> Daha fazla yem
+-> Küçülen yılan
+
+Nasıl oyunu durdururum?
+-> Buton kontrolü aktif iken ekrana dokunmak oyunu durdurmaktadır.
+-> Kaydırma kontrolü aktif iken ekrana iki parmakla dokunmak oyunu durdurmaktadır.

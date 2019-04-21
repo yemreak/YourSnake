@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlScreenPaused"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvScreenTop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTopBottom_topBottomText"
+        android:fontFamily="@font/almendra"
+        android:text="@string/txt_toRePause1_screen"
+        android:textColor="@color/txt_general_screen"
+        android:textSize="@dimen/txtSize_general_screen" />
+
+    <TextView
+        android:id="@+id/tvScreenTop2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvScreenTop1"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/almendra"
+        android:text="@string/txt_toRePause2_screen"
+        android:textColor="@color/txt_important_screen"
+        android:textSize="@dimen/txtSize_general_screen" />
+
+    <TextView
+        android:id="@+id/tvScreenTop3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvScreenTop2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/almendra"
+        android:text="@string/txt_toRePause3_screen"
+        android:textColor="@color/txt_general_screen"
+        android:textSize="@dimen/txtSize_general_screen" />
+
+    <TextView
+        android:id="@+id/tvTitleScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/almendra_bold"
+        android:text="@string/txtTitle_paused_screen"
+        android:textColor="@color/txt_title_screen"
+        android:textSize="@dimen/txtSize_middle_screen" />
+
+    <TextView
+        android:id="@+id/tvScreenMiddle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitleScreen"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/almendra"
+        android:text="@string/txt_toMenu_screen"
+        android:textColor="@color/txt_general_screen"
+        android:textSize="@dimen/txtSize_general_screen" />
+
+    <TextView
+        android:id="@+id/tvScreenBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/marginTopBottom_topBottomText"
+        android:fontFamily="@font/almendra"
+        android:text="@string/txt_toMoveOn_screen"
+        android:textColor="@color/txt_general_screen"
+        android:textSize="@dimen/txtSize_general_screen" />
+
+
+</RelativeLayout>

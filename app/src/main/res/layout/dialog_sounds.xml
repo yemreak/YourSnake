@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_sounds"
+    android:id="@+id/rlSoundsDialog">
+
+    <ImageButton
+        android:id="@+id/ibCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/marginEnd_dialogCancelImageButton"
+        android:layout_marginTop="@dimen/marginTop_dialogCancelImageButton"
+        android:background="@null"
+        android:contentDescription="@string/content_description_clickable"
+        app:srcCompat="@drawable/ic_cancel" />
+
+    <Button
+        android:id="@+id/btnSoundsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibCancel"
+        android:layout_marginTop="@dimen/marginTop_dialogTitleButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_button_aqua"
+        android:clickable="false"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:text="@string/txtTitleButton_sounds"
+        android:textAlignment="center"
+        android:textColor="@color/txt_aqua_button"
+        android:textSize="@dimen/textSize_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbNoSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSoundsTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_topDialogButton"
+        android:background="@drawable/bg_button_purple"
+        android:checked="false"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/txtButton_noSounds"
+        android:textOn="@string/txtButton_noSounds"
+        android:textSize="@dimen/textSize_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbClassicalSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbNoSounds"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/txtButton_classicSounds"
+        android:textOn="@string/txtButton_classicSounds"
+        android:textSize="@dimen/textSize_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbRetroSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbClassicalSounds"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/txtButton_retroSounds"
+        android:textOn="@string/txtButton_retroSounds"
+        android:textSize="@dimen/textSize_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbGunSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbRetroSounds"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/txtButton_gunSounds"
+        android:textOn="@string/txtButton_gunSounds"
+        android:textSize="@dimen/textSize_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbHorrorSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbGunSounds"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/txtButton_scarySounds"
+        android:textOn="@string/txtButton_scarySounds"
+        android:textSize="@dimen/textSize_buttons" />
+</RelativeLayout>

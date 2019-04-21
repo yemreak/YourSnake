@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>,
+    <!-- Tema Renkleri -->
+    <color name="light_pink">#efabdd</color>
+    <color name="black">#000000</color>
+
+    <!-- Buton yazı renkleri -->
+    <color name="txt_title_main">#ECBC7B</color>
+    <color name="txt_white_button">#60574D</color>
+    <color name="txt_pink_button">#08052A</color>
+    <color name="txt_aqua_button">#1D1E08</color>
+    <color name="txt_purple_button">#D6DDEF</color>
+    <color name="txt_purple_button_checked">#470157</color>
+    <color name="txt_blue_button">#FFDD00</color>
+    <color name="txt_blue_button_checked">#05115D</color>
+
+    <!-- Ex Options Dialog Renkleri -->
+    <color name="bg_ex_options_dialog">#171715</color>
+    <color name="txt_title_ex_options_dialog">#F6F6FC</color>
+
+    <!-- Snake Activity1 Renkleri -->
+    <color name="bg_buttonField">#001A2F</color>
+
+    <!-- screen_* Renkleri -->
+    <color name="txt_general_screen">#EEFAFF</color>
+    <color name="txt_important_screen">#FED8FA</color>
+    <color name="txt_title_screen">#ECBC7B</color>
+
+
+    <!--
+    Tema Array Yapısı
+        - Çerçeve rengi
+        - Arkaplan Rengi
+        - Yazı Rengi
+        - Yılan Rengi
+        - Yılanın Göz rengi
+        - Yem Rengi
+    -->
+
+    <array name="theme_default">
+        <item>#3F0101</item>
+        <item>#000000</item>
+        <item>#FFFFFF</item>
+        <item>#9ED5FF</item>
+        <item>#FFF8F8</item>
+        <item>#F6FF08</item>
+    </array>
+
+    <array name="theme_darkness">
+        <item>#141212</item>
+        <item>#000000</item>
+        <item>#FFFFFF</item>
+        <item>#EEECBA</item>
+        <item>#9A1C1C</item>
+        <item>#00FFF7</item>
+    </array>
+
+    <array name="theme_light">
+        <item>#E8F2FA</item>
+        <item>#F0F8FF</item>
+        <item>#200404</item>
+        <item>#686867</item>
+        <item>#DDF0FF</item>
+        <item>#DFA608</item>
+    </array>
+
+    <array name="theme_aqua">
+        <item>#2A00FF</item>
+        <item>#3A24AA</item>
+        <item>#FFFFFF</item>
+        <item>#FCE8EF</item>
+        <item>#004B3F</item>
+        <item>#BDFEC2</item>
+    </array>
+
+    <array name="theme_purple">
+        <item>#D3C6F5</item>
+        <item>#CABBF1</item>
+        <item>#FFFFFF</item>
+        <item>#F0F8FF</item>
+        <item>#917EC2</item>
+        <item>#FFF8E7</item>
+    </array>
+
+    <array name="theme_horror">
+        <item>#180003</item>
+        <item>#200202</item>
+        <item>#D1A5A5</item>
+        <item>#00060C</item>
+        <item>#FF0011</item>
+        <item>#9C1601</item>
+    </array>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yemreak.yoursnake">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".oldsnake.SnakeActivityWithSwipe"
+            android:screenOrientation="portrait" /> <!-- No history koyarsak pause'den geri gelemiyoruz -->
+        <activity
+            android:name=".oldsnake.SnakeActivityWithButtons"
+            android:screenOrientation="portrait" /> <!-- No history koyarsak pause'den geri gelemiyoruz -->
+        <activity
+            android:name=".oldsnake.GameModeActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" /> <!-- No history ile back tuşuyla geri dönülmüyor. -->
+        <activity
+            android:name=".oldsnake.OptionsActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait" /> <!-- No history ile back tuşuyla geri dönülmüyor. -->
+        <activity
+            android:name=".oldsnake.SnakeEngineScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait" /> <!-- No history ile back tuşuyla geri dönülmüyor. -->
+        <activity
+            android:name=".oldsnake.SnakeActivityWithJoyStick"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

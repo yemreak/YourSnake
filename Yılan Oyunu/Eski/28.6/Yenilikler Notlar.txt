@@ -1,0 +1,12 @@
+Neler değişti?
+-> Ex-Ayarlar'da düzenlemeler yapıldı. Artık block sayısı yerine block büyüklüğü değiştiriliyor.
+-> BlockField'ın içine blockSizeMod'u eklendi.
+-> Bazı değişkenlerin set metodu private yapıldı. Daha düzgün kod yapısı oluşturuldu.
+-> Gap rengi siyah oldu.
+-> Butonlara aynı anda basınca ölebilme sorunu giderildi.
+-> Klasik Modlar'daki yanlış gösterim düzeltildi.
+-> Yön havuzu ile yön sorunu düzeltildi, artık sadece en son basılan yön çalışıyor
+-> Yem oluşturulmadaki hata düzeltildi.
+-> Yılanın duvarlara çarpmadan çarpmış tepkisi verme sorunu düzeltildi.
+-> Yemlerin yanlış yere çizilmesi ve bir alanda birden fazla yem olma sorunu düzeltildi.
+-> 

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_ex_options_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- indeterminate: Otomatik olarak ilerler (yükleme ekranları için falan-->
+    <!-- thumb: Yuvarlak yerine istediğimiz resmi koymak için -->
+    <!-- progressDrawable: İlerlemeyi özel resimle belirtmek için -->
+
+
+    <TextView
+        android:id="@+id/tv_snakeLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_toParent_exOpDialog"
+        android:fontFamily="@font/balthazar"
+        android:text="@string/txt_lengthOfSnake_exOp"
+        android:textColor="@color/txt_title_ex_options_dialog"
+        android:textSize="@dimen/textSize_title_exOpDialog" />
+
+    <SeekBar
+        android:id="@+id/sb_length"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_snakeLength"
+        android:layout_centerHorizontal="true"
+        android:max="5"
+        android:progress="2"
+        android:thumb="@drawable/ic_thumb_snake"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_blockSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb_length"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenGroups_exOpDialog"
+        android:fontFamily="@font/balthazar"
+        android:text="@string/txt_sizeOfBlock_exOp"
+        android:textColor="@color/txt_title_ex_options_dialog"
+        android:textSize="@dimen/textSize_title_exOpDialog" />
+
+    <SeekBar
+        android:id="@+id/sb_blockSize"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_blockSize"
+        android:layout_centerHorizontal="true"
+        android:max="5"
+        android:progress="2"
+        android:thumb="@drawable/ic_thumb_snake"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_fps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb_blockSize"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenGroups_exOpDialog"
+        android:fontFamily="@font/balthazar"
+        android:text="@string/txt_speedOfGame_exOp"
+        android:textColor="@color/txt_title_ex_options_dialog"
+        android:textSize="@dimen/textSize_title_exOpDialog" />
+
+    <SeekBar
+        android:id="@+id/sb_fps"
+        android:layout_width="244dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_fps"
+        android:layout_centerHorizontal="true"
+        android:max="5"
+        android:progress="2"
+        android:thumb="@drawable/ic_thumb_snake"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cbNoScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_betweenGroups_exOpDialog"
+        android:layout_marginBottom="@dimen/marginBottom_toParent_exOpDialog"
+        android:fontFamily="@font/balthazar"
+        android:textSize="@dimen/textSize_checkBox_exOpDialog"
+        android:layout_below="@+id/sb_fps"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txtCB_noExScreenExperimental" />
+
+</RelativeLayout>

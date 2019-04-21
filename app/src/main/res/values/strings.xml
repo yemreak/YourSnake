@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Senin Yılanın</string>
+
+    <!-- Main Activity Metinleri -->
+
+    <!-- Başlıklar -->
+    <string name="txt_title_left">SENİN</string>
+    <string name="txt_title_right">YILANIN</string>
+
+    <!-- Main Activity Buton İsimleri -->
+    <string name="txtButton_newGame">Yeni Oyun</string>
+    <string name="txtButton_gameModes">Oyun Modları</string>
+    <string name="txtButton_options">Ayarlar</string>
+
+    <!-- İçerik açıklamaları -->
+    <string name="content_description_clickable">Eylem Butonu</string>
+
+    <!-- Ex Options Metinleri -->
+    <string name="txt_lengthOfSnake_exOp"> Yılanın uzunluğu (%1$s) </string>
+    <!-- Yılan uzunluğu metinleri -->
+    <string name="txt_snakeLength_veryShort"> Çok Kısa </string>
+    <string name="txt_snakeLength_short">Kısa</string>
+    <string name="txt_snakeLength_normal">Normal</string>
+    <string name="txt_snakeLength_long">Uzun</string>
+    <string name="txt_snakeLength_veryLong">Çok Uzun</string>
+    <string name="txt_snakeLength_extremelyLong">Aşırı Uzun</string>
+
+    <string name="txt_sizeOfBlock_exOp"> Ekranın görüntü boyutu (%1$s)</string>
+    <!-- Oyun büyüklüğü metinleri  ( Duruma göre sonuna ex_options ekle) -->
+    <string name="txt_block_verySmall"> Çok Küçük </string>
+    <string name="txt_block_small">Küçük</string>
+    <string name="txt_block_normal">Normal</string>
+    <string name="txt_block_large">Büyük</string>
+    <string name="txt_block_veryLarge">Çok Büyük</string>
+    <string name="txt_block_extremelyLarge">Aşırı Büyük</string>
+
+    <string name="txt_speedOfGame_exOp"> Oyun Hızı (%1$s)</string>
+    <!-- Yılan uzunluğu metinleri -->
+    <string name="txt_gameSpeed_verySlow"> Çok Yavaş </string>
+    <string name="txt_gameSpeed_slow">Yavaş</string>
+    <string name="txt_gameSpeed_normal">Normal</string>
+    <string name="txt_gameSpeed_fast">Hızlı</string>
+    <string name="txt_gameSpeed_veryFast">Çok Hızlı</string>
+    <string name="txt_gameSpeed_extremelyFast">Aşırı Hızlı</string>
+
+    <string name="txtButton_saveAndExit">Kaydet ve Çık</string>
+    <string name="txtButton_resetAndExit">Sıfırla ve Çık</string>
+    <string name="txtCB_noExScreenExperimental">Ek Ekranları kaldır (Deneysel)</string>
+
+    <!-- GameModeActivity Metinleri -->
+    <string name="classic_modes_game_mode_activity">Klasik Modlar</string>
+
+    <!-- OptionsActivity metinleri -->
+    <string name="txtTitleButton_options">AYARLAR</string>
+    <string name="txtButton_controls">Kontroller</string>
+    <string name="txtButton_sounds">Sesler</string>
+    <string name="txtButton_musics">Müzikler</string>
+    <string name="txtButton_themes">Temalar</string>
+
+    <!-- Dialog Classic Modes Metinleri -->
+    <string name="txtTitleButton_classicModes">KLASİK MODLAR</string>
+    <string name="txtButton_frame">Çerçeve</string>
+    <string name="txtButton_moreFeedType">Fazla Yem Çeşidi</string>
+    <string name="txtButton_moreFeed">Fazla Yem</string>
+    <string name="txtButton_shrinkSnake">Küçülen Yılan</string>
+
+    <!-- Dialog Control Metinleri -->
+    <string name="txtTitleButton_controls">KONTROLLER</string>
+    <string name="txtButtons_viaButton">Butonla</string>
+    <string name="txtButtons_viaSwipe">Kaydırmayla</string>
+
+    <!-- Dialog Sounds Metinleri -->
+    <string name="txtTitleButton_sounds">SESLER</string>
+    <string name="txtButton_noSounds">Ses Yok</string>
+    <string name="txtButton_classicSounds">Klasik Sesler</string>
+    <string name="txtButton_retroSounds">Eski Sesler</string>
+    <string name="txtButton_gunSounds">Silah Sesleri</string>
+    <string name="txtButton_scarySounds">Ürkütücü Sesler</string>
+
+    <!-- Dialog Musics Metinleri -->
+    <string name="txtTitleButton_musics">MÜZİKLER</string>
+    <string name="txtButton_noMusic">Müzik Yok</string>
+    <string name="txtButton_ferambie">Ferambie</string>
+    <string name="txtButton_scaryMusic">Ürkütücü Müzik</string>
+
+    <!-- Dialog Theme Metinleri -->
+    <string name="txtTitleButton_themes">TEMALAR</string>
+    <string name="txtButton_defaultTheme">Varsayılan</string>
+    <string name="txtButton_darkTheme">Karanlık</string>
+    <string name="txtButton_lightTheme">Aydınlık</string>
+    <string name="txtButton_aquaTheme">Deniz Mavisi</string>
+    <string name="txtButton_purpleTheme">Mor</string>
+    <string name="txtButton_scaryTheme">Ürkütücü Tema</string>
+
+    <!-- Screen metinleri -->
+    <string name="txt_toRePause1_screen">Tekrardan durdurmak için </string>
+    <string name="txt_toRePause2_screen">2 parmağınızla</string>
+    <string name="txt_toRePause3_screen">dokunun</string>
+    <string name="txtTitle_paused_screen">Durduruldu</string>
+    <string name="txt_toMenu_screen">Menüye dönmek için 2 kere hızlıca dokunun</string>
+    <string name="txt_toMenu1_screen">Menüye dönmek için</string>
+    <string name="txt_toMenu2_screen">2 kere hızlıca</string>
+    <string name="txt_toMenu3_screen">dokunun</string>
+    <string name="txt_toMoveOn_screen">Devam etmek için dokunun</string>
+    <string name="txtTitle_gameOver_screen">Oyun Sonu :(</string>
+    <string name="txt_score_screen"> Skor: &#160;&#160; %1$d </string>
+    <string name="txt_toRestart_screen">Yeniden başlatmak için dokunun</string>
+
+</resources>

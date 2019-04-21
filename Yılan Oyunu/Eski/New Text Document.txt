@@ -1,0 +1,13 @@
+score'lar ile yem geliştirilsin.
+yem geliştirilirse 1000score ile, yem gelişsin %10 ihtimalle 2 kat yem falanç
+
+Oyun modları;
+Custom bl
+10 hız, 10 block size, more feed, more feed type, shrink snake - Zevkli olan mod türü.
+
+
+Horor Mode Pack;
+- Horror thema
+- Horror sounds
+- Horror feed ( hediye paketi yerine insan, yem yerine ciğer / kalp falan)
+- Her yemden ayrı ses. (İnsan yenirse insan çığlığı)

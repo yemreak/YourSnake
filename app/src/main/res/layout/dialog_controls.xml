@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rlControlsDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialogs_controls">
+
+
+    <ImageButton
+        android:id="@+id/ibCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/marginEnd_dialogCancelImageButton"
+        android:layout_marginTop="@dimen/marginTop_dialogCancelImageButton"
+        android:background="@null"
+        android:contentDescription="@string/content_description_clickable"
+        app:srcCompat="@drawable/ic_cancel" />
+
+    <Button
+        android:id="@+id/btnControlsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibCancel"
+        android:layout_marginTop="@dimen/marginTop_dialogTitleButton"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_button_aqua"
+        android:clickable="false"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:text="@string/txtTitleButton_controls"
+        android:textAlignment="center"
+        android:textColor="@color/txt_aqua_button"
+        android:textSize="@dimen/textSize_buttons" />
+
+    <ToggleButton
+        android:id="@+id/tbButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnControlsTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_topDialogButton"
+        android:background="@drawable/bg_button_purple"
+        android:checked="false"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/txtButtons_viaButton"
+        android:textOn="@string/txtButtons_viaButton"
+        android:textSize="@dimen/textSize_buttons" />
+
+    <ToggleButton
+        android:id="@+id/ivSwipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbButtons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop_betweenDialogButtons"
+        android:background="@drawable/bg_button_purple"
+        android:checked="false"
+        android:fontFamily="@font/almendra_bold"
+        android:paddingBottom="@dimen/paddingBottom_buttons"
+        android:textAlignment="center"
+        android:textColor="@color/txt_purple_button"
+        android:textOff="@string/txtButtons_viaSwipe"
+        android:textOn="@string/txtButtons_viaSwipe"
+        android:textSize="@dimen/textSize_buttons" />
+</RelativeLayout>
